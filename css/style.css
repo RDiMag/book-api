@@ -12,7 +12,7 @@
 /*******************************************/
 body{
   margin: 1em;
-  background: linear-gradient(90deg, rgba(218,238,255,1) 0%, rgba(255,255,255,1) 50%, rgba(218,238,255,1) 100%);
+  background: linear-gradient(90deg, rgba(218, 238, 255, 0.889) 0%, rgba(255,255,255,1) 50%, rgba(218,238,255,0.889) 100%);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -36,10 +36,27 @@ main{
  justify-content: space-around;
 }
 
-#list{
+.card{
+ margin: .25em;
+ background-color: white;
+ padding: .25em;
+ min-height: 250px;
+ min-width: 500px;
+ box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+}
+
+#search{
+  padding-bottom: 1.6em;
+}
+
+.card h1{
+  font-size: 1.5em;
+  text-align: center;
+}
+/* #list{
   max-width: 50vw;
   min-height: 90%;
-}
+} */
 
 #image{
   display: flex;
