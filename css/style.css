@@ -38,11 +38,14 @@ button:hover{
 main{
  padding: 1em;
  display: flex;
+ flex-direction: column;
  justify-content: space-around;
+ align-items: center;
 }
 
 #search{
   padding-bottom: 1.6em;
+  
 }
 
 .card{
@@ -51,6 +54,8 @@ main{
  padding: .25em;
  min-height: 250px;
  min-width: 500px;
+ height: 30%;
+ width: 30%;
  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
 }
 
